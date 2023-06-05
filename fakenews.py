@@ -12,7 +12,7 @@ st.set_page_config(
     menu_items=None
 )
 
-model = pickle.load(open('RF.pkl','rb'))
+model = pickle.load(open('DT.pkl','rb'))
 
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 
