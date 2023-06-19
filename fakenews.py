@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import re
 import string
+from scipy.sparse import csr_matrix
 
 st.set_page_config(
     page_title='News Detection',
